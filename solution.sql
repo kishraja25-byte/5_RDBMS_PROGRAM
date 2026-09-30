@@ -1,10 +1,5 @@
--- ============================================
--- SOLUTION - INSERT STUDENT RECORDS
--- ============================================
-
 USE CollegeDB;
 
--- Insert student records
 INSERT INTO Student
     (StudentID, StudentName, Gender, DepartmentID)
 VALUES
@@ -12,5 +7,4 @@ VALUES
     (1002, 'Divya', 'Female', 102),
     (1003, 'Karthik', 'Male', 101);
 
--- Display all student records
 SELECT * FROM Student;
